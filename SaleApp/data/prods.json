@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 36 Pro Max",
+    "price": 300000000,
+    "cates_id": 1,
+    "image": "https://i0.wp.com/cdnlegacy.ubergizmo.com/photos/2010/10/iphone-next-g.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Samsuck S36 Ultra",
+    "price": 36000000,
+    "cates_id": 1,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwLE2ngPU1KgoWrDPmpHXGyi_EYENNAu-SvJOwlPEUjDs-iDwZSCbLDRCb&s=10"
+  },
+  {
+    "id": 3,
+    "name": "Xiaomi 36 Pro Max",
+    "price": 36363636,
+    "cates_id": 1,
+    "image": "https://i.ytimg.com/vi/ONcexk90QwY/oardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLCX9ttYZadUpqF7xrwja-w_HiW5Lg&usqp=CCk"
+  },
+  {
+    "id": 4,
+    "name": "Vivo X3600 Pro Max",
+    "price": 3600000,
+    "cates_id": 1,
+    "image": "https://m-cdn.phonearena.com/images/articles/376147-350/vivo-drone-camera-phone-out2.webp"
+  }
+]

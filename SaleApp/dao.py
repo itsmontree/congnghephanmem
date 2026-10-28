@@ -1,19 +1,31 @@
 import json
+from models import Category, Product
+
 def load_categories():
-    with open("data/cate.json", encoding="utf-8") as f:
-        cates = json.load(f)
+    # with open("data/cate.json", encoding="utf-8") as f:
+    #     cates = json.load(f)
+    #
+        return Category.query
 
-        return cates
+def load_products(q=None, cate_id=None):
+    # with open("data/prods.json", encoding="utf-8") as f:
+    #
+    #     prods = json.load(f)
+    query = Product.query
+    if q:
+        query = query.filter(Product.name.contains(q))
+    if cate_id:
+        query = query.filter(Product.cate_id == int(cate_id))
+    return query.all()
+    # return Product.query.filter(or_(Product.name.ilike(f"%{q}%"), Product.cate_id == cate_id)).all()
 
-def load_products(q=None, cates_id=None):
-    with open("data/prods.json", encoding="utf-8") as f:
+def get_product_by_id(id):
+    # with open("data/prods.json", encoding="utf-8") as f:
+    #     prods = json.load(f)
+    #     for p in prods:
+    #         if p["id"]==id:
+    #             return p
+    return Product.query.get(id)
 
-        prods = json.load(f)
-        if q:
-            prods = [p for p in prods if q in p["name"]]
-        if cates_id:
-            print(cates_id)
-            prods = [p for p in prods if int(cates_id) == p["cates_id"]]
-        return prods
 if __name__ == "__main__":
     print(load_products())

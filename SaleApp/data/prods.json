@@ -3,28 +3,56 @@
     "id": 1,
     "name": "iPhone 36 Pro Max",
     "price": 300000000,
-    "cates_id": 1,
+    "cate_id": 1,
     "image": "https://i0.wp.com/cdnlegacy.ubergizmo.com/photos/2010/10/iphone-next-g.jpg"
   },
   {
     "id": 2,
     "name": "Samsuck S36 Ultra",
     "price": 36000000,
-    "cates_id": 1,
+    "cate_id": 1,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwLE2ngPU1KgoWrDPmpHXGyi_EYENNAu-SvJOwlPEUjDs-iDwZSCbLDRCb&s=10"
   },
   {
     "id": 3,
     "name": "Xiaomi 36 Pro Max",
     "price": 36363636,
-    "cates_id": 1,
+    "cate_id": 1,
     "image": "https://i.ytimg.com/vi/ONcexk90QwY/oardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLCX9ttYZadUpqF7xrwja-w_HiW5Lg&usqp=CCk"
   },
   {
     "id": 4,
     "name": "Vivo X3600 Pro Max",
     "price": 3600000,
-    "cates_id": 1,
+    "cate_id": 1,
     "image": "https://m-cdn.phonearena.com/images/articles/376147-350/vivo-drone-camera-phone-out2.webp"
+  },
+  {
+    "id": 5,
+    "name": "Cyberpunk Laptop",
+    "price": 300000000,
+    "cate_id": 2,
+    "image": "https://images.presentationgo.com/2025/05/cyberpunk-laptop-teal-glow.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Rollable Laptop",
+    "price": 36000000,
+    "cate_id": 2,
+    "image": "https://im.rediff.com/getahead/2010/oct/11-laptop-hp-no-bag.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Sci-fi Tablet",
+    "price": 36363636,
+    "cate_id": 3,
+    "image": "https://public.blenderkit.com/thumbnails/assets/e28ca2d7343141a2bfe671b63ff139c3/files/thumbnail_d8b3f0a3-cb23-4533-aef5-bf5a32408547.jpg.512x512_q85.jpg.webp?webp_generated=1766517116"
+  },
+  {
+    "id": 8,
+    "name": "Tablet",
+    "price": 3600000,
+    "cate_id": 3,
+    "image": "https://static.vecteezy.com/system/resources/previews/071/404/258/non_2x/futuristic-digital-tablet-with-sleek-design-and-blue-interface-displays-high-tech-screen-featuring-logo-and-text-device-appears-advanced-and-modern-suitable-for-sci-fi-settings-png.png"
   }
 ]
